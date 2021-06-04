@@ -5,7 +5,6 @@ import { CommonRoutesConfig } from "../common/common.routes.config";
 import { PermissionsFlags } from "../common/enums/common.permissionsFlags.enum";
 import commonPermissionMiddleware from "../common/middlewares/common.permission.middleware";
 import usersController from "./controllers/users.controller";
-import { usersControllerLogger } from "./logs/users.controller.logger";
 import bodyValidationMiddleware from "./middlewares/body.validation.middleware";
 import usersMiddleware from "./middlewares/users.middleware";
 
